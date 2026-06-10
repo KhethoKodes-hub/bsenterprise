@@ -1,0 +1,88 @@
+body {
+	background-color: #fff;
+}
+h4{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+	display: black;
+}
+.sidebar-boxed.sidebar-dark {
+	background-color: #f7f7f7;
+}
+.sidebar-boxed{
+	padding-top: 0;
+}
+.sidebar-boxed .sidebar-brand {
+    display: block;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 0px 20px;
+    padding: 60px 0;
+    background-color: #0089d8;
+}
+.sidebar-boxed .sidebar-brand:focus,
+.sidebar-boxed .sidebar-brand:hover{
+	text-decoration: none;
+}
+.banner.auto-size {
+	background-color: #0095eb;
+}
+
+.sidebar-brand img {
+	width: 120px;
+}
+.line.number1{
+	display: none;
+}
+
+.sidebar-boxed.sidebar-dark .sidenav a.open, .sidebar-boxed.sidebar-dark .sidenav a.open+ul, .sidebar-boxed.sidebar-dark .sidenav>li>a:hover {
+	background-color: #ecf0f1;
+}
+
+
+
+.sidebar-boxed.sidebar-dark .sidenav>li>a.open, .sidebar-boxed.sidebar-dark .sidenav>li>a:hover, .sidebar-boxed.sidebar-dark .sidenav a.open+ul a {
+	color: #282828 !important;
+}
+.sidebar-boxed.sidebar-dark .sidenav li >a:hover,
+.sidebar-boxed.sidebar-dark .sidenav li.active>a{
+	color: #282828;
+	background-color: #fff;
+}
+h1 a:before, h2 a:before, h3 a:before{
+	color: #232323;
+}
+.demo-grid {
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.demo-grid li{
+	padding: 5px;
+}
+ul li a:hover,
+ul li a{
+	color: #0089d8;
+}
+.demo-grid li img{
+	width: 100%;
+}
+.site-footer {
+	background-color: #232323;
+	color: #ecf0f1;
+}
+
+.footer-menu a {
+	color: #ecf0f1;
+}
+
+.footer-menu a:hover {
+	color: #fff;
+}
+
+.site-footer #scroll-up>.fa {
+	color: #282828;
+}

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Construction Documentation</title>
+
+    <!-- Styles -->
+    <link href="assets/css/theDocs.all.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+	
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="assets/syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="assets/syntax-highlighter/styles/shCoreDefault.css" media="all">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400' rel='stylesheet' type='text/css'>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-boxed sidebar-dark">
+
+        <a class="sidebar-brand" href="index.html"><img src="assets/img/logo-light.png" alt="Construction"></a>
+
+        <ul class="nav sidenav dropable">
+            <li><a href="#intro">Introduction</a></li>
+            <li>
+                <a href="#elements">Elements</a>
+                <ul>
+                    <li><a href="#headermarkeup">Header Markup</a></li>
+					<li><a href="#pageheader">Page Header</a></li>
+                    <li><a href="#heromarkup">Slider</a></li>
+                    <li><a href="#promomarkup">About Block</a></li>
+                    <li><a href="#servicemarkup">Services Markup</a></li>
+                    <li><a href="#countermarkup">Counter Markup</a></li>
+					<li><a href="#portfoliomarkup">Portfolio Markup</a></li>
+					<li><a href="#teammarkup">Team Markup</a></li>
+					<li><a href="#testimarkup">Testimonial Markup</a></li>
+					<li><a href="#blogmarkup">Blog Markup</a></li>
+					<li><a href="#clientmarkup">Client Markup</a></li>
+					<li><a href="#footermarkup">Footer Markup</a></li>
+                </ul>
+            </li>
+            <li><a href="#sourceandcredit">Source &amp; Credits</a></li>
+        </ul>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+    <header class="site-header navbar-transparent">
+
+        <!-- Top navbar & branding -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <!-- Toggle buttons and brand -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                        <span class="glyphicon glyphicon-option-vertical"></span>
+                    </button>
+
+                    <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- END Toggle buttons and brand -->
+
+                <!-- Top navbar -->
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="http://cracktheme.com/support" target="_blank">Support</a>
+                        </li>
+                        <li class="hero">
+                            <a href="#" target="_blank">Purchase</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END Top navbar -->
+            </div>
+        </nav>
+        <!-- END Top navbar & branding -->
+
+        <!-- Banner -->
+        <div id="intro" class="banner auto-size">
+            <div class="container-fluid text-white">
+                <h1><strong>Construction</strong> - Ultimate Responsive Construction Template</h1>
+                <ul>
+                    <li>Created: 5 July</li>
+                    <li>Last Updated:  July</li>
+                    <li>By: CrackThemes</li>
+                    <li>Email: contact@cracktheme.com</li>
+                </ul>
+            </div>
+        </div>
+        <!-- END Banner -->
+
+    </header>
+
+    <main class="container-fluid">
+
+        <!-- Main content -->
+        <article class="main-content" role="main">
+
+            <p class="lead">
+                Thank you for purchasing Construction - Ultimate Responsive Construction Template. If you have any questions that are beyond the scope of this help file, please feel free to make a support ticket here: http://www.cracktheme.com/support. Thanks so much!</p>
+
+            <p>
+                If you like this template, please to rate it on Themeforest - it really helps us to know what people think about our templates. To rate this item, go to your Downloads page on 
+                Themeforest, then next to this template click on a star rating you'd like to give us.
+            </p>
+            <p>
+                Thank you so much.
+                AlexaTheme
+            </p>
+
+            <section id="elements">
+
+                <h2 id="headermarkeup">Change Elements</h2>
+				
+				<h4 id="header">Header</h4>
+				<pre class="brush: html;">
+				
+&lt;header id="header" class="header header-bd double-header">
+    &lt;div class="header-top header-bd ptb-10">
+        &lt;div class="container">
+            &lt;div class="col-xs-12 text-right xs-text-center">
+                &lt;ul class="top-info display-inline-block">
+                    &lt;li>&lt;i class="ti-headphone-alt">&lt;/i> (102) 6666 8888&lt;/li>
+                    &lt;li>&lt;i class="ti-email">&lt;/i> &lt;a href="mailto:info@domain.com">info@domain.com&lt;/a>&lt;/li>
+                &lt;/ul>
+                &lt;ul class="social-icon-white top-social hidden-xs display-inline-block">
+                    &lt;li>&lt;a href="#">&lt;i class="ti-facebook">&lt;/i>&lt;/a>&lt;/li>
+                    &lt;li>&lt;a href="#">&lt;i class="ti-twitter">&lt;/i>&lt;/a>&lt;/li>
+                    &lt;li>&lt;a href="#">&lt;i class="ti-google">&lt;/i>&lt;/a>&lt;/li>
+                    &lt;li>&lt;a href="#">&lt;i class="ti-pinterest">&lt;/i>&lt;/a>&lt;/li>
+                    &lt;li>&lt;a href="#">&lt;i class="ti-instagram">&lt;/i>&lt;/a>&lt;/li>
+                &lt;/ul>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+    &lt;div class="header-bottom ptb-10 pos-relative">
+        &lt;div class="container">
+            &lt;div class="col-sm-3">
+                &lt;div class="navbar-header">
+                    &lt;a href="#" class="brand">&lt;img src="img/logo-light.png" alt="Construction">&lt;/a>
+                &lt;/div>
+            &lt;/div>
+            &lt;div class="col-sm-9 hidden-xs">
+                &lt;div class="pull-right">
+                    &lt;a href="#" class="b-nav-btn">Book Us&lt;/a>
+                &lt;/div>
+                &lt;nav class="mainmenu pull-right">
+                    &lt;ul id="navi-menu">
+                        &lt;li class="current_page_item">&lt;a href="index.html">Home&lt;/a>
+                            &lt;ul>
+                                &lt;li>&lt;a href="index.html">Home Default&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="index-dark.html">Home Dark&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="index-light.html">Home Light&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                        &lt;li>&lt;a href="about.html">About us&lt;/a>
+                            &lt;ul>
+                                &lt;li>&lt;a href="about.html">About us&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="about-light.html">About Light&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="about-dark.html">About Dark&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                        &lt;li>&lt;a href="service.html">Services&lt;/a>
+                            &lt;ul>
+                                &lt;li>&lt;a href="service.html">Services&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="service-light.html">Service Light&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="service-dark.html">Service Dark&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                        &lt;li>&lt;a href="project-3-col.html">Projects&lt;/a>
+                            &lt;ul>
+                                &lt;li>&lt;a href="project-3-col.html">Projects 3 Col&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="project-2-col.html">Projects 2 Col&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="project-details.html">Projects Details&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                        &lt;li>&lt;a href="blog-sidebar-right.html">Blog&lt;/a>
+                            &lt;ul>
+                                &lt;li>&lt;a href="blog-sidebar-right.html">Blog Sidebar Right&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="blog-sidebar-left.html">Blog Sidebar Left&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="blog-full-width.html">Blog Full Width&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="blog-single-right.html">Blog Single Right&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="blog-single-left.html">Blog Single Left&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                        &lt;li>&lt;a href="contact.html">Contact Us&lt;/a>
+                            &lt;ul>
+                                &lt;li>&lt;a href="contact.html">Contact Us&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="contact-with-map.html">Contact With Map&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/nav>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/header> &lt;!-- Header -->
+				</pre>
+				
+				<h4 id="pageheader">Page Header</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="page-heading bg-img height-500" style="background-image: url(img/about-hero.jpg)">
+    &lt;div class="display-table">
+        &lt;div class="table-cell">
+            &lt;div class="container">
+                &lt;div class="hero-content">
+                    &lt;h2 class="fz-40 text-white fw-8 mb-15">ABOUT CONSTRUCTION&lt;/h2>
+                    &lt;p class="text-white fz-16">We offer free consulting and the best project management &lt;br>for your ideas, 100% delivery guaranteed.&lt;/p>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/section>&lt;!-- Page Heading -->
+				</pre>
+				
+				<h4 id="heromarkup">Slider</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="slider-section">
+    &lt;div class="main-slider owl-carousel owl-nav-3 owl-dots-1">
+        &lt;div class="slide-item bg-img height-670" style="background-image: url(img/slide-1.jpg)">
+            &lt;div class="display-table">
+                &lt;div class="table-cell">
+                    &lt;div class="container">
+                        &lt;div class="slider-content">
+                            &lt;h1 class="fz-45 text-white fw-8 tt-u">Ultimate Construction&lt;/h1>
+                            &lt;p class="text-white mb-20 xs-br-none fz-16">We offer free consulting and the best project management &lt;br>for your ideas, 100% delivery guaranteed.&lt;/p>
+                            &lt;div class="btn-group-left">
+                                &lt;a href="#" class="b-btn">Learn More&lt;/a>
+                                &lt;a href="#" class="b-btn">Get It Now&lt;/a>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;div class="slide-item bg-img height-670" style="background-image: url(img/slide-2.jpg)">
+            &lt;div class="display-table">
+                &lt;div class="table-cell">
+                    &lt;div class="container">
+                        &lt;div class="slider-content">
+                            &lt;h1 class="fz-45 text-white fw-8 tt-u">Ultimate Construction&lt;/h1>
+                            &lt;p class="text-white mb-20 xs-br-none fz-16">We offer free consulting and the best project management &lt;br>for your ideas, 100% delivery guaranteed.&lt;/p>
+                            &lt;div class="btn-group-left">
+                                &lt;a href="#" class="b-btn">Learn More&lt;/a>
+                                &lt;a href="#" class="b-btn">Get It Now&lt;/a>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;div class="slide-item bg-img height-670" style="background-image: url(img/slide-3.jpg)">
+            &lt;div class="display-table">
+                &lt;div class="table-cell">
+                    &lt;div class="container">
+                        &lt;div class="slider-content">
+                            &lt;h1 class="fz-45 text-white fw-8 tt-u">Ultimate Construction&lt;/h1>
+                            &lt;p class="text-white mb-20 xs-br-none fz-16">We offer free consulting and the best project management &lt;br>for your ideas, 100% delivery guaranteed.&lt;/p>
+                            &lt;div class="btn-group-left">
+                                &lt;a href="#" class="b-btn">Learn More&lt;/a>
+                                &lt;a href="#" class="b-btn">Get It Now&lt;/a>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/section>&lt;!-- slider-section -->
+				</pre>
+				
+				<h4 id="promomarkup">About Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="content-block padding bd-bottom bd-grey">
+    &lt;div class="container">
+        &lt;div class="col-sm-7 xs-padding wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+            &lt;div class="entry-content sm-no-padding ptb-30">
+                &lt;h2 class="mb-20">WE ARE THE EXPERT ON THIS FIELD &lt;br>
+                    BETTER BUILDING SOLUTIONS SINCE 1984.&lt;/h2>
+                &lt;p class="fz-14">We are committed to building a sustainable future by fostering a collaborative spirit  that creates exceptional experiences, balanced relationships, and enhances a community’s built environment.&lt;/p>
+            &lt;/div>
+        &lt;/div>
+        &lt;div class="col-sm-5 xs-padding wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+            &lt;div class="content-box bg-yellow padding-40">
+                &lt;h4 class="text-white pb-5 bd-bottom-white">Construction Office&lt;/h4>
+                &lt;ul class="addr-info text-white fz-13">
+                    &lt;li>4 Tottenham Road, London, England.&lt;/li>
+                    &lt;li>(102) 6666 8888&lt;/li>
+                    &lt;li>info@thememove.com&lt;/li>
+                    &lt;li>Mon - Sat: 9:00 - 18:00&lt;/li>
+                &lt;/ul>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/section>&lt;!-- about-section -->
+				</pre>
+				
+				<h4 id="servicemarkup">Services Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="service-section bg-grey padding bd-bottom">
+    &lt;div class="container">
+        &lt;ul class="services-wrap">
+            &lt;li class="col-md-4 col-xs-6 ptb-15 wow zoomIn" data-wow-delay="0ms" data-wow-duration="1000ms">
+                &lt;div class="service-box">
+                    &lt;i class="ct ct-construct-2 fz-60">
+                    &lt;span class="path1">&lt;/span>&lt;span class="path2">&lt;/span>&lt;span class="path3">&lt;/span>&lt;span class="path4">&lt;/span>&lt;span class="path5">&lt;/span>&lt;span class="path6">&lt;/span>&lt;span class="path7">&lt;/span>&lt;span class="path8">&lt;/span>&lt;span class="path9">&lt;/span>&lt;span class="path10">&lt;/span>&lt;span class="path11">&lt;/span>&lt;span class="path12">&lt;/span>&lt;span class="path13">&lt;/span>&lt;span class="path14">&lt;/span>
+                    &lt;/i>
+                    &lt;h4 class="fw-7">ARCHITECTURE&lt;/h4>
+                    &lt;p class="fz-13">A general term to describe buildings and other physical structures.&lt;/p>
+                    &lt;a href="#" class="read-more fz-12 tt-u">Read More&lt;/a>
+                &lt;/div>
+            &lt;/li>
+        &lt;/ul>
+    &lt;/div>
+&lt;/section>&lt;!-- /.service section -->
+				</pre>
+				
+				<h4 id="countermarkup">Counter Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="counter-section ptb-140 bd-bottom bg-img" style="background-image: url(img/counter-light-bg.jpg);">
+    &lt;div class="container">
+        &lt;div class="col-sm-3 col-xs-6 xs-padding">
+            &lt;div class="counter-box">
+                &lt;h3 class="fz-35 fw-9 text-yellow">&lt;span class="counter">3468&lt;/span>+&lt;/h3>
+                &lt;h4 class="fw-7 no-margin">Project Finished&lt;/h4>
+            &lt;/div>
+        &lt;/div>&lt;!-- counter 1 -->
+        &lt;div class="col-sm-3 col-xs-6 xs-padding">
+            &lt;div class="counter-box">
+                &lt;h3 class="fz-35 fw-9 text-yellow">&lt;span class="counter">200&lt;/span>+&lt;/h3>
+                &lt;h4 class="fw-7 no-margin">Happy Client&lt;/h4>
+            &lt;/div>
+        &lt;/div>&lt;!-- counter 2 -->
+        &lt;div class="col-sm-3 col-xs-6 xs-padding">
+            &lt;div class="counter-box">
+                &lt;h3 class="fz-35 fw-9 text-yellow">&lt;span class="counter">5000&lt;/span>+&lt;/h3>
+                &lt;h4 class="fw-7 no-margin">Hour Of work&lt;/h4>
+            &lt;/div>
+        &lt;/div>&lt;!-- counter 3 -->
+        &lt;div class="col-sm-3 col-xs-6 xs-padding">
+            &lt;div class="counter-box">
+                &lt;h3 class="fz-35 fw-9 text-yellow">&lt;span class="counter">15&lt;/span>+&lt;/h3>
+                &lt;h4 class="fw-7 no-margin">Award won&lt;/h4>
+            &lt;/div>
+        &lt;/div>&lt;!-- counter 4 -->
+    &lt;/div>
+&lt;/section>&lt;!-- counter-section -->
+				</pre>
+				
+				
+				<h4 id="portfoliomarkup">Portfolio Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="portfoio-section bd-bottom padding">
+    &lt;div class="container">
+        &lt;div class="row mb-40">
+            &lt;div class="col-sm-6 xs-padding">
+                &lt;h2 class="fw-7">CONSTRUCTION RECENT PROJECTS&lt;/h2>
+            &lt;/div>
+            &lt;div class="col-sm-6 xs-padding">
+                &lt;ul class="filter-menu text-right xs-text-center">
+                    &lt;li class="active" data-filter="*">All Projects&lt;/li>
+                    &lt;li data-filter=".architecture"> Architecture&lt;/li>
+                    &lt;li data-filter=".construction"> Construction&lt;/li>
+                    &lt;li data-filter=".interior"> Interior Design&lt;/li>
+                &lt;/ul>&lt;!-- /.filter-menu -->
+            &lt;/div>
+        &lt;/div>
+        &lt;div class="portfolio-items filter-items img-w1 row">
+            &lt;div class="col-sm-4 col-xs-6 single-item padding-10 architecture">
+                &lt;div class="portfolio-box">
+                    &lt;img class="img-w1" src="img/project-1.jpg" alt="Portfolio Image">
+                    &lt;a href="img/project-2.jpg" class="overlay lightbox text-center">
+                        &lt;div class="display-table">
+                            &lt;div class="table-cell padding-15">
+                                &lt;h4 class="mb-10 fz-16 text-white display-inline-block padding-25 ptb-15 bg-yellow">Interior Design&lt;/h4>
+                                &lt;p class="no-margin fz-14">Interior Design is the definitive resource for interior designers&lt;/p>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/a>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/section>&lt;!-- portfolio-section -->
+				</pre>
+				
+				
+				<h4 id="teammarkup">Team Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="team-section padding bg-grey bd-bottom">
+    &lt;div class="container">
+        &lt;div class="section-heading mb-40">
+            &lt;h2 class="mb-10">Experience Team Member&lt;/h2>
+        &lt;/div>
+        &lt;div class="team-box-wrap">
+            &lt;div class="col-sm-4 col-xs-6 xs-padding wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="500ms">
+                &lt;div class="team-member bd-grey">
+                    &lt;img src="img/team-1.jpg" alt="team-img" class="img-w1">
+                    &lt;div class="bg-white padding-30 ptb-25 text-center">
+                        &lt;h4 class="no-margin">Markus Smith&lt;/h4>
+                        &lt;p class="mb-10">CEO and founder of Construction ltd.&lt;/p>
+                        &lt;ul class="social-icon-black social-center">
+                            &lt;li>&lt;a href="#">&lt;i class="ti-facebook">&lt;/i>&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#">&lt;i class="ti-twitter">&lt;/i>&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#">&lt;i class="ti-google">&lt;/i>&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#">&lt;i class="ti-instagram">&lt;/i>&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#">&lt;i class="ti-pinterest">&lt;/i>&lt;/a>&lt;/li>
+                        &lt;/ul>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/section>&lt;!-- team Block-->
+				</pre>
+				
+				
+				<h4 id="testimarkup">Testimonial Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="testimonial-section padding bd-bottom">
+    &lt;div class="container">
+        &lt;div class="section-heading pb-5 mb-40">
+            &lt;h2>WHAT PEOPLE THINK ABOUT US&lt;/h2>
+        &lt;/div>
+        &lt;div class="testi-carousel owl-nav-1 owl-carousel">
+            &lt;div class="review-box padding-20 ptb-40 bg-grey bd">
+                &lt;p class="fz-13">Construction delivers world-class engineering construction services. We are pioneers in the UAEinfrastructure industry. &lt;/p>
+                &lt;h4 class="display-inline-block">ANGELINA ROSE&lt;/h4>
+                &lt;ul class="rating display-inline-block">
+                    &lt;li>&lt;i class="ti-star text-yellow">&lt;/i>&lt;/li>
+                    &lt;li>&lt;i class="ti-star text-yellow">&lt;/i>&lt;/li>
+                    &lt;li>&lt;i class="ti-star text-yellow">&lt;/i>&lt;/li>
+                    &lt;li>&lt;i class="ti-star text-yellow">&lt;/i>&lt;/li>
+                    &lt;li>&lt;i class="ti-star text-yellow">&lt;/i>&lt;/li>
+                &lt;/ul>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/section>&lt;!-- testimonial-section -->
+				</pre>
+				
+				<h4 id="blogmarkup">Blog Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="blog-section padding bg-grey bd-bottom">
+    &lt;div class="container">
+        &lt;div class="section-heading ml-15 mb-40">
+            &lt;h2>Our Latest News&lt;/h2>
+        &lt;/div>
+        &lt;div class="blog-wrapper">
+            &lt;div class="col-sm-4 col-xs-6 xs-padding wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                &lt;div class="article-box">
+                    &lt;img src="img/news-1.jpg" class="img-w1" alt="Blog-image">
+                    &lt;div class="entry-content mt-15">
+                        &lt;h4>USING THE RIGHT MATERIALS.&lt;/h4>
+                        &lt;p class="fz-13">Learn about the best paper and materials to use for physical records and what not to use.&lt;/p>
+                        &lt;a href="" class="read-more fz-12 tt-u">Read More&lt;/a>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            &lt;div class="col-sm-4 col-xs-6 xs-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
+                &lt;div class="article-box">
+                    &lt;img src="img/news-2.jpg" class="img-w1" alt="Blog-image">
+                    &lt;div class="entry-content mt-15">
+                        &lt;h4>DIGITAL TOOLS FOR YOUR BUSINESS.&lt;/h4>
+                        &lt;p class="fz-13">Digital tools can help your business grow by finding more customers, reaching new markets.&lt;/p>
+                        &lt;a href="" class="read-more fz-12 tt-u">Read More&lt;/a>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            &lt;div class="col-sm-4 col-xs-6 xs-padding wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                &lt;div class="article-box">
+                    &lt;img src="img/news-3.jpg" class="img-w1" alt="Blog-image">
+                    &lt;div class="entry-content mt-15">
+                        &lt;h4>CHOSSING THE RIGHT ARCHITECT.&lt;/h4>
+                        &lt;p class="fz-13">Ultimately you want to find the architect . don't feel limited to choosing your community.&lt;/p>
+                        &lt;a href="" class="read-more fz-12 tt-u">Read More&lt;/a>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/section>&lt;!-- blog-section -->
+				</pre>
+				
+				<h4 id="clientmarkup">Client Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;div class="partner-block ptb-40">
+    &lt;div class="container">
+        &lt;div class="col-sm-2 col-xs-4">     
+            &lt;div class="brand-item padding-10">
+                &lt;a href="#">&lt;img src="img/1.png" class="img-w1" alt="Brands">&lt;/a>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/div>&lt;!-- partner block -->
+				</pre>
+				
+				<h4 id="ctamarkup">Call to Action Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;section class="cta-section text-center bg-yellow ptb-40">
+    &lt;div class="container">
+        &lt;h2 class="text-white fz-18 no-margin display-inline-block">GET YOUR FREE CONSULTING AND ESTIMATE FOR YOUR PROJECT&lt;/h2>
+        &lt;a href="#" class="b-btn btn-white btn-border ml-15">Explore&lt;/a>
+    &lt;/div>
+&lt;/section>&lt;!-- cta-section -->
+				</pre>
+				
+				<h4 id="footermarkup">Footer Markup</h4>
+				<pre class="brush: html;">
+				
+&lt;footer class="footer-section bg-dark text-center bd-top-dark ptb-40 tt-u">
+    &lt;div class="container">
+        &lt;p class="no-margin fz-13 text-light">&copy; Copyright 2017 Crack Themes - All Rights Reserved&lt;/p>
+    &lt;/div>
+&lt;/footer>&lt;!--  footer section -->
+				</pre>
+				
+            </section>
+
+            <section>
+
+                <h2 id="sourceandcredit">Source &amp; Credits</h2>
+				
+				<ul>
+					<li><a href="https://jquery.com/" target="_blank">jquery</a></li>
+					<li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+					<li><a href="http://isotope.metafizzy.co/" target="_blank">Isotope</a></li>
+					<li><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html" target="_blank">Owl Carousel 2</a></li>
+					<li><a href="http://imagesloaded.desandro.com/" target="_blank">Image Loaded</a></li>
+					<li><a href="https://github.com/bfintal/Counter-Up" target="_blank">Counter-Up</a></li>
+					<li><a href="https://github.com/cferdinandi/smooth-scroll" target="_blank">Smooth Scroll</a></li>
+					<li><a href="https://daneden.github.io/animate.css/" target="_blank">Animate.css</a></li>
+					</li>
+				</ul>
+				
+				
+            </section>
+
+        </article>
+        <!-- END Main content -->
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> Construction by CrackThemes.</p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <ul class="footer-menu">
+                        <li><a href="#sourceandcredit">Credits</a></li>
+                        <li><a href="mailto:contact@cracktheme.com">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END Footer -->
+
+<!-- Scripts -->
+<script type="text/javascript" src="assets/syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+<script src="assets/js/theDocs.all.min.js"></script>
+
+</body>
+</html>
