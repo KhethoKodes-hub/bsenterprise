@@ -53,6 +53,37 @@
                 position: relative;
                 z-index: 2;
             }
+
+            /* Transparent logo backgrounds */
+            img[src*="BS Enterprise Logo"] {
+                background: transparent !important;
+            }
+
+            /* Footer social icons */
+            .footer-social {
+                margin-top: 15px;
+                padding: 0;
+                list-style: none;
+            }
+            .footer-social li {
+                display: inline-block;
+                margin-right: 8px;
+            }
+            .footer-social li a {
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+                line-height: 34px;
+                text-align: center;
+                border-radius: 50%;
+                background-color: rgba(255,255,255,0.1);
+                color: #fff;
+                font-size: 15px;
+                transition: background-color 0.3s;
+            }
+            .footer-social li a:hover {
+                background-color: #8B6343;
+            }
         </style>
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -84,7 +115,7 @@
                 <div class="container">
                     <div class="col-sm-3">
                         <div class="navbar-header">
-                            <a href="index.html" class="brand"><img src="img/bsassets/BS Enterprise Logo/option 2.svg" style="width:80px; height:80px" alt="BS Enterprise"></a>
+                            <a href="index.html" class="brand"><img src="img/bsassets/BS Enterprise Logo/option 2.svg" style="width:80px; height:80px; background:transparent;" alt="BS Enterprise"></a>
                         </div>
                     </div>
                     <div class="col-sm-9 hidden-xs">
@@ -252,9 +283,13 @@
             <div class="container">
                 <div class="col-sm-4 col-xs-6 xs-padding">
                     <div class="widget-box">
-                        <img class="mb-15" src="img/bsassets/BS Enterprise Logo/option 2.svg" style="width:80px; height:80px" alt="BS Enterprise">
+                        <img class="mb-15" src="img/bsassets/BS Enterprise Logo/option 2.svg" style="width:80px; height:80px; background:transparent;" alt="BS Enterprise">
                         <h4 class="text-light mb-25">Your Partner in Construction Success</h4>
                         <p class="fz-13 mb-25 text-light">Give us a call or drop us an email anytime. We endeavour to answer all enquiries within 24 hours on business days.</p>
+                        <ul class="footer-social">
+                            <li><a href="https://www.facebook.com/profile.php?id=61582342634361" target="_blank"><i class="ti-facebook"></i></a></li>
+                            <!--<li><a href="#" target="_blank"><i class="ti-instagram"></i></a></li>-->
+                        </ul>
                     </div>
                 </div><!-- widget 1 -->
                 <div class="col-sm-5 col-xs-6 xs-padding">
