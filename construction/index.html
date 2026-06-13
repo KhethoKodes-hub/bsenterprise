@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="BS Enterprise (PTY) Ltd - Your Partner in Construction Success. Based in Gamagara District, Northern Cape.">
         <title>BS Enterprise (PTY) Ltd - Your Partner in Construction Success</title>
-        <link rel="preload" as="image" href="img/bsassets/paving2.jpg">
+        <link rel="preload" as="image" href="/construction/img/bsassets/bsLogo.png">
         
 
         <!--  construct Icon CSS -->
@@ -47,42 +47,65 @@
                 z-index: 1;
             }
 
-            /* Brown color overrides */
+            /* Yellow color overrides */
             .bg-yellow,
             .cta-section.bg-yellow,
             .b-btn,
             .read-more:hover,
             .filter-menu li.active,
             .filter-menu li:hover {
-                background-color: #8B6343 !important;
+                background-color: #FAB702 !important;
             }
             .text-yellow,
             .read-more {
-                color: #8B6343 !important;
+                color: #FAB702 !important;
             }
             .b-btn:hover {
-                background-color: #6e4e34 !important;
-                border-color: #6e4e34 !important;
+                background-color: #d99e00 !important;
+                border-color: #d99e00 !important;
             }
             .b-btn.btn-white {
                 background-color: #fff !important;
-                color: #8B6343 !important;
+                color: #FAB702 !important;
                 border-color: #fff !important;
             }
             .b-btn.btn-white:hover {
-                background-color: #8B6343 !important;
+                background-color: #FAB702 !important;
                 color: #fff !important;
             }
             .b-nav-btn {
-                background-color: #8B6343 !important;
-                border-color: #8B6343 !important;
+                background-color: #FAB702 !important;
+                border-color: #FAB702 !important;
             }
             .b-nav-btn:hover {
-                background-color: #6e4e34 !important;
+                background-color: #d99e00 !important;
+            }
+
+            /* Navbar logo sizing */
+            .navbar-header .brand img {
+                width: 130px !important;
+                height: 130px !important;
+            }
+
+            /* Keep header height accommodating larger logo */
+            .header-bottom {
+                padding-top: 5px !important;
+                padding-bottom: 5px !important;
+            }
+
+            /* Mobile responsive navbar */
+            @media (max-width: 767px) {
+                .navbar-header .brand img {
+                    width: 90px !important;
+                    height: 90px !important;
+                }
+                .slicknav_menu {
+                    display: block;
+                }
             }
 
             /* Transparent logo backgrounds */
-            img[src*="BS Enterprise Logo"] {
+            img[src*="bsLogo"] {
                 background: transparent !important;
                 mix-blend-mode: normal;
             }
@@ -110,7 +133,7 @@
                 transition: background-color 0.3s;
             }
             .footer-social li a:hover {
-                background-color: #8B6343;
+                background-color: #FAB702;
             }
         </style>
 
@@ -130,7 +153,7 @@
 		<header id="header" class="header header-bd double-header">
             <div class="header-top header-bd ptb-10">
                 <div class="container">
-                    <div class="col-xs-12 text-right xs-text-center">
+                    <!--<div class="col-xs-12 text-right xs-text-center">
                         <ul class="top-info display-inline-block">
                             <li><i class="ti-headphone-alt"></i> 068-743-6865</li>
                             <li><i class="ti-email"></i> <a href="mailto:Boikokobetsomolaodi1@gmail.com">Boikokobetsomolaodi1@gmail.com</a></li>
@@ -139,14 +162,14 @@
                             <li><a href="https://www.facebook.com/profile.php?id=61582342634361"><i class="ti-facebook"></i></a></li>
                             <li><a href="#"><i class="ti-instagram"></i></a></li>
                         </ul>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="header-bottom ptb-10 pos-relative">
                 <div class="container">
                     <div class="col-sm-3">
                         <div class="navbar-header">
-                            <a href="#" class="brand"><img src="img/bsassets/BS Enterprise Logo/option 2.svg" style="width:80px; height:80px; background:transparent;" alt="BS Enterprise"></a>
+                            <a href="#" class="brand"><img src="/construction/img/bsassets/bswhitelogo.png" style="width: 90px; height: 90px; background: transparent;" alt="BS Enterprise"></a>
                         </div>
                     </div>
                     <div class="col-sm-9 hidden-xs">
@@ -184,16 +207,16 @@
         
         <section class="slider-section">
             <div class="main-slider owl-carousel owl-nav-3 owl-dots-1">
-                <div class="slide-item bg-img height-670" style="background-image: url(img/bsassets/paving2.jpg)">
+                <div class="slide-item bg-img height-670" style="background-image: url(img/bsassets/weld6.jpg)">
                     <div class="display-table">
                         <div class="table-cell">
                             <div class="container">
                                 <div class="slider-content">
                                     <h1 class="fz-45 text-white fw-8 tt-u">BS Enterprise (PTY) Ltd</h1>
-                                    <p class="text-white mb-20 xs-br-none fz-16">Your Partner in Construction Success. Delivering clean services <br>with experienced professionals, values &amp; respect.</p>
+                                    <!-- <p class="text-white mb-20 xs-br-none fz-16">Your Partner in Construction Success. Delivering clean services <br>with experienced professionals, values &amp; respect.</p> -->
                                     <div class="btn-group-left">
-                                        <a href="about.html" class="b-btn">Learn More</a>
-                                        <a href="contact.html" class="b-btn">Contact Us</a>
+                                        <a href="about-dark.html" class="b-btn">Learn More</a>
+                                        <a href="contact-with-map.html" class="b-btn">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide-item bg-img height-670" style="background-image: url(img/bsassets/weld6.jpg)">
+                <div class="slide-item bg-img height-670" style="background-image: url(img/bsassets/paving2.jpg)">
                     <div class="display-table">
                         <div class="table-cell">
                             <div class="container">
@@ -613,7 +636,7 @@
             <div class="container">
                 <div class="col-sm-4 col-xs-6 xs-padding">
                     <div class="widget-box">
-                        <img loading="lazy" decoding="async" class="mb-15" src="img/bsassets/BS Enterprise Logo/option 2.svg" style="width:80px; height:80px; background:transparent;" alt="BS Enterprise">
+                        <img loading="lazy" decoding="async" class="mb-15" src="img/bsassets/bswhitelogo.png" style="width:80px; height:80px; background:transparent;" alt="BS Enterprise">
                         <h4 class="text-light mb-25">Your Partner in Construction Success</h4>
                         <p class="fz-13 mb-25 text-light">Give us a call or drop us an email anytime. We endeavour to answer all enquiries within 24 hours on business days.</p>
                         <ul class="footer-social">
